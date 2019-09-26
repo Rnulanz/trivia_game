@@ -1,0 +1,21 @@
+.jumbotron{
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 40px;
+}
+
+
+body{
+    background-image: url("http://cdn.shopify.com/s/files/1/0186/8104/files/Saved_By_The_Bell_Background_Graphics_grande.png?1171");
+}
+
+.container{
+    background-color: aqua;
+}
+
+.choice{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
