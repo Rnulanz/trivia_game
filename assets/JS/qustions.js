@@ -16,7 +16,7 @@ var quizQuestions =[{
 },
 {
     questions: "Who plays Stacey Carosi in the summer episodes ",
-    choices: ["ZacTiffani Amber Theissen", "Leah Remini", "Tori Spelling" ,"Heather Hopper"],
+    choices: ["Tiffani Amber Theissen", "Leah Remini", "Tori Spelling" ,"Heather Hopper"],
     correctAnswer:"Leah Remini",
 },
 {
@@ -46,7 +46,7 @@ var quizQuestions =[{
 },
 {
     questions: "What hotel did the gang stay at in Las Vegas in the wedding episode ?",
-    choices: ["The Stradust", "The Venecian", "The MGM Grand", "New York, New York"],
+    choices: ["The Stardust", "The Venecian", "The MGM Grand", "New York, New York"],
     correctAnswer: "The Stardust",
 },
 ];

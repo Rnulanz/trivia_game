@@ -18,7 +18,8 @@ function nextQuestion(){
 function timeUp(){
     clearInterval(counter);
     wrong++;
-    nextQuestion();
+    rightWrong('wrong')
+   setTimeout(nextQuestion, 3 *1000);
 }
 function clock(){
     time--;
@@ -57,11 +58,13 @@ $(document).on("click", ".choice", function(){
     var answer = quizQuestions[currentQuestion].correctAnswer;
     if(answerSelected === answer){
         correct++;
-        nextQuestion();
+        rightWrong('correct')
+        setTimeout(nextQuestion, 3 *1000);
     
     }else{
         wrong++;
-        nextQuestion();
+        rightWrong('wrong')
+        setTimeout(nextQuestion, 3 *1000);
         
     }
     console.log(answerSelected);
@@ -88,7 +91,22 @@ console.log("Testing")
  counter = null;
 
  loadQuestions();
-})
+});
+
+function rightWrong(status){
+    var note = quizQuestions[currentQuestion].correctAnswer;
+
+    if(status === 'correct'){
+        $('#trivia').html(`
+            <p>Congratulations!!!! You are correct, the answer is <b>${note}<b></p>
+        `)
+    } else{
+        $('#trivia').html(`
+    <p>Do  you even go here, the correct answer was <b>${note}<b></p>
+`)
+
+    }
+}
 
 $("#start").click(function(){
     $("#start").remove();
