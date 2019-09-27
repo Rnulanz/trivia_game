@@ -102,7 +102,7 @@ function rightWrong(status){
         `)
     } else{
         $('#trivia').html(`
-    <p>Do  you even go here, the correct answer was <b>${note}<b></p>
+    <p>Do  you even go here, the correct answer is <b>${note}<b></p>
 `)
 
     }
