@@ -109,7 +109,7 @@ function rightWrong(status){
 }
 
 $("#start").click(function(){
-    $("#start").remove();
+    $("#start").hide();
     $("#countdown").html(time);
     loadQuestions();
 

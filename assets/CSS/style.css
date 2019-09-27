@@ -6,8 +6,8 @@
 
 
 body{
-    background-image: url("http://cdn.shopify.com/s/files/1/0186/8104/files/Saved_By_The_Bell_Background_Graphics_grande.png?1171");
-    background-repeat: repeat;
+    background-image: url(../images/SavedByTheBell.png);
+    background-repeat: no-repeat;
     font-family: 'Mansalva', cursive;
     font-size: 24px;
 }
