@@ -7,7 +7,7 @@
 
 body{
     background-image: url(../images/SavedByTheBell.png);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     font-family: 'Mansalva', cursive;
     font-size: 24px;
 }
