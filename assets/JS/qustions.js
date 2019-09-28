@@ -25,7 +25,7 @@ var quizQuestions =[{
     correctAnswer: "Kelly",
 },
 {
-    questions: "What pet did Zack try to rescue from the oil spill?",
+    questions: "What pet did Zac try to rescue from the oil spill?",
     choices: ["Fish", "Turtle", "Duck", "Salamander"],
     correctAnswer: "Duck",
 },
@@ -40,7 +40,7 @@ var quizQuestions =[{
     correctAnswer: "In an elevator",
 },
 {
-    questions: "What month was Jessi in the Bayside Swimsuit calendar ?",
+    questions: "What month was Jessie in the Bayside Swimsuit calendar ?",
     choices: ["July", "November", "October", "December"],
     correctAnswer: "July",
 },

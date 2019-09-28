@@ -51,7 +51,6 @@ function loadChoices(choices) {
 
     return result;
 }
-
 $(document).on("click", ".choice", function(){
     clearInterval(counter);
     var answerSelected = $(this).attr('data-answer')
