@@ -73,7 +73,7 @@ function answerSheet(){
     var result = `
         <p>You got ${correct} question(s) right</p>
         <p>You missed ${wrong} question(s) right</p>
-        <p>Total ${quizQuestions.length} question(s) right</p>
+        <p>Total ${quizQuestions.length} question(s)</p>
         <button type="button" class="btn btn-primary btn-lg" id="restart">Restart</button>
     `;
 
